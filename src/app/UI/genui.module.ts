@@ -1,6 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SidebarComponent, PanelComponent } from './components';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const components = [
   SidebarComponent,
@@ -12,7 +13,8 @@ const components = [
     ...components
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule
   ],
   exports: [
     ...components
