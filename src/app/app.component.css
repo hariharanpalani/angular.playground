@@ -1,0 +1,33 @@
+.flex {
+  flex-direction: column !important;
+  color: #d6d6d6;
+  font-size: 3rem;
+  list-style: none;
+  margin-left: -20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #d6d6d6;
+  cursor: pointer;
+}
+
+.nav-link:hover, .nav-link:hover > .nav-text {
+  color: #0097df;
+  display: block;
+}
+
+.nav-text {
+  font-size: 12px;
+  margin: 0px 0px 0px -3px;
+  display: none;
+}
+
+li.nav-item {
+  padding: 1rem;
+}
+
+.panel-container {
+  padding-left: 10rem;
+  position: fixed;
+}

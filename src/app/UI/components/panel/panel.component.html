@@ -1,0 +1,12 @@
+<div [ngStyle]="{ 'width': width }" class="panel panel-default genpanel">
+  <div class="panel-heading">
+      <h3 class="panel-title">Panel title</h3>
+      <div class="pull-right control">
+        <i class="fa fa-window-maximize"></i>
+        <i class="fa fa-close" (click)="close()"></i>
+      </div>
+  </div>
+  <div class="panel-body">
+      <ng-content></ng-content>
+    </div>
+</div>

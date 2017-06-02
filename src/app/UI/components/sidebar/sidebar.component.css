@@ -1,0 +1,9 @@
+.sidebar {
+  min-width: 10rem;
+  max-width: 10rem;
+  position: fixed;
+  height: 100%;
+  background: #2e3842;
+  right: auto;
+  z-index: 100;
+}

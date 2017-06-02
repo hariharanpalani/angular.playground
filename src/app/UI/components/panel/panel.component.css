@@ -1,0 +1,17 @@
+.genpanel {
+  position: fixed !important;
+  height: 100% !important;
+}
+
+.genpanel .panel-heading {
+  background-color: #003162;
+  color: #ffffff;
+}
+
+.genpanel h3 {
+  display: inline;
+}
+
+.control i {
+  padding-left: 10px;
+}
